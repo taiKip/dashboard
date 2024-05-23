@@ -19,6 +19,9 @@ const config: Config = {
         },
       },
     },
+    fontFamily: {
+      sans: ['var(--font-nunito-sans)', 'var(--font-roboto-mono)'],
+    },
     keyframes: {
       shimmer: {
         '100%': {
