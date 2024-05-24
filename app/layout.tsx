@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html  lang="en" className={`${nunito_sans.className} antialiased`}>
-      <body>{children}</body>
+      <body >{children}</body>
     </html>
   );
 }
